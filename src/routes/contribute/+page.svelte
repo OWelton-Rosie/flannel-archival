@@ -1,1 +1,1 @@
-<h1>Contrib</h1>
+<h1>Contribute</h1>
