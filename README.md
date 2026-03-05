@@ -1,11 +1,6 @@
 # WHS Flannel Archival
 
-- Prod: [https://flannel-archival.oweltonrosie.workers.dev/](https://flannel-archival.oweltonrosie.workers.dev/)
-- Staging: [https://staging-flannel-archival.oweltonrosie.workers.dev/](https://staging-flannel-archival.oweltonrosie.workers.dev/)
-
 ## Updating the site
-
-Example:
 
 > This repository contains the source code for the Flannel Archival website.
 > The site is deployed automatically and uses a **staging → production** workflow to prevent accidental breakage of the live site.
