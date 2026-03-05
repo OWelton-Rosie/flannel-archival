@@ -1,3 +1,3 @@
 # WHS Flannel Archival
 
-Staging: [flannel.oweltonrosie.com](flannel.oweltonrosie.com)
+Staging: [flannel.oweltonrosie.com](https://flannel.oweltonrosie.com)
