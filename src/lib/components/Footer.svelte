@@ -14,7 +14,7 @@
 	{#if commit}
 	<p class="build">
 		<a href={`${repo}/commit/${commit}`} target="_blank" rel="noopener noreferrer">
-			rev {commit}
+			{commit}
 		</a>
 	</p>
 	{/if}
