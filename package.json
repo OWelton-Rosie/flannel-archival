@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "VITE_COMMIT_HASH=$(git rev-parse --short HEAD) vite build",
+    "generate:pdfs": "node scripts/generate-pdf-manifest.js",
+    "build": "npm run generate:pdfs && VITE_COMMIT_HASH=$(git rev-parse --short HEAD) vite build",
     "preview": "npm run build && wrangler dev",
     "prepare": "svelte-kit sync || echo ''",
     "gen": "wrangler types",
