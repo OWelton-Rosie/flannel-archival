@@ -8,7 +8,8 @@
 		<a href="/">Homepage</a> |
 		<a href="/contribute">Contribute to the project</a> |
 		<a href="/about">About</a> |
-		<a href="/privacy">Privacy policy and takedown requests</a>
+		<a href="/contact">Contact</a> |
+		<a href="/takedown">Takedown requests</a>
 	</p>
 
 	{#if commit}
