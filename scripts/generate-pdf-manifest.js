@@ -1,3 +1,8 @@
+// this script builds the manifest of all PDFs
+// the manifest can be found at `static/assets/pdfs/pdfs.json`
+// the manifest is run by Cloudlfare at build time and is auto-generated
+// you should not need to edit the manifest directly
+
 import fs from "fs";
 import path from "path";
 
