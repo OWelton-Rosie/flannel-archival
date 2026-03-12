@@ -101,8 +101,8 @@
 	border-radius: 6px;
 	border: none;
 	cursor: pointer;
-	background: 007BFF;
-	color: white;
+	background: #007BFF;
+	color: #fff;
 	font-size: 0.9rem;
 }
 </style>
