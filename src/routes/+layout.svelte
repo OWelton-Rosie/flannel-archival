@@ -101,7 +101,7 @@
 	border-radius: 6px;
 	border: none;
 	cursor: pointer;
-	background: black;
+	background: 007BFF;
 	color: white;
 	font-size: 0.9rem;
 }
