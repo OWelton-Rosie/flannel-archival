@@ -5,7 +5,59 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
+
+		<noscript>
+			<style>
+				body {
+					margin: 0;
+					font-family: system-ui, sans-serif;
+					background: #f8f8f8;
+				}
+
+				/* Hide the actual Svelte app */
+				body > div:not(.no-js-warning) {
+					display: none;
+				}
+
+				.no-js-warning {
+					height: 100vh;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 2rem;
+				}
+
+				.no-js-warning .card {
+					max-width: 420px;
+					text-align: center;
+					padding: 2rem;
+					border-radius: 12px;
+					border: 1px solid #ddd;
+					background: white;
+					box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+				}
+
+				.no-js-warning h1 {
+					margin-bottom: 0.5rem;
+				}
+
+				.no-js-warning p {
+					color: #555;
+				}
+			</style>
+
+			<div class="no-js-warning">
+				<div class="card">
+					<h1>JavaScript required</h1>
+					<p>This site requires JavaScript to function.</p>
+					<p>Please enable JavaScript and reload the page.</p>
+				</div>
+			</div>
+		</noscript>
+
 		<div style="display: contents">%sveltekit.body%</div>
+
 	</body>
 </html>
