@@ -3,6 +3,10 @@
 // the manifest is run by Cloudlfare at build time and is auto-generated
 // you should not need to edit the manifest directly
 
+// simply add your PDF to the `static/assets/pdfs` directory and it will be included in the manifest automatically
+// your PDF should be named either [month name]-[year].pdf, or simply [year].pdf
+// example: `january-2024.pdf` or `2024.pdf`
+
 import fs from "fs";
 import path from "path";
 
