@@ -4,6 +4,7 @@
 // you should not need to edit the manifest directly
 
 // simply add your PDF to the `static/assets/pdfs` directory and it will be included in the manifest automatically
+// capitalisation doesn't matter, provided you have a hyphen between the month and year, and the month is spelled out in full (e.g. `january`, `february`, etc.)
 // your PDF should be named either [month name]-[year].pdf, or simply [year].pdf
 // example: `january-2024.pdf` or `2024.pdf`
 
