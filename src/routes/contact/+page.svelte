@@ -9,7 +9,7 @@
       general: "Tell us what you'd like to know.",
       content: "Please include the issue name, page number(s), and the reason for the takedown request.",
       correction: "Include the issue name, page number, and what the correct information should be.",
-      technical: "Describe the issue and what device/browser you're using if possible.",
+      technical: "Describe the issue, include the version the site is on (can be found at the bottom of the footer, or on the about page) and what device/browser you're using if possible.",
       other: "Provide as much detail as possible."
     };
   
