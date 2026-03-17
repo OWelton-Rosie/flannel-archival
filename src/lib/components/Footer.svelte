@@ -13,7 +13,7 @@
 	</p>
 
 	{#if commit}
-	<p class="build">Running on <a href={`${repo}/commit/${commit}`} target="_blank" rel="noopener noreferrer"> {commit}</a></p>
+	<p class="build">Running on: <a href={`${repo}/commit/${commit}`} target="_blank" rel="noopener noreferrer"> {commit}</a></p>
 	{/if}
 </footer>
 
