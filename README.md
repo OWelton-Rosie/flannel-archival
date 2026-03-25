@@ -1,5 +1,8 @@
 # WHS Flannel Archival
 
+## Contributing to the project
+Please see CONTRIBUTING.md
+
 WIP
 
 If git isn't letting you push to staging, run:
