@@ -5,12 +5,12 @@
 
 <footer>
 	<p>
-		<a href="/">Homepage</a> 
+		<a href="/">Homepage</a> |
 		<a href="https://github.com/OWelton-Rosie/flannel-archival" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</p>
 
 	{#if commit}
-	<p class="build">Running on: <a href={`${repo}/commit/${commit}`} target="_blank" rel="noopener noreferrer"> {commit}</a></p>
+	<p class="build">Running on <a href={`${repo}/commit/${commit}`} target="_blank" rel="noopener noreferrer"> {commit}</a></p>
 	{/if}
 </footer>
 
