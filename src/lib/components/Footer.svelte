@@ -5,11 +5,8 @@
 
 <footer>
 	<p>
-		<a href="/">Homepage</a> |
-		<a href="/contribute">Contribute to the project</a> |
-		<a href="/about">About</a> |
-		<a href="/contact">Contact</a> |
-		<a href="/takedown">Takedown requests</a>
+		<a href="/">Homepage</a> 
+		<a href="https://github.com/OWelton-Rosie/flannel-archival" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</p>
 
 	{#if commit}
