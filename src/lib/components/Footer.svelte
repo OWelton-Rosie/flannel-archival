@@ -6,6 +6,7 @@
 <footer>
 	<p>
 		<a href="/">Homepage</a> 
+		<a href="https://github.com/OWelton-Rosie/flannel-archival" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</p>
 
 	{#if commit}
